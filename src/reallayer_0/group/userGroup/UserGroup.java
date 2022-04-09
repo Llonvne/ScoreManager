@@ -64,7 +64,7 @@ public class UserGroup implements UserGroupInterface {
         return this.groupname.compareTo(o.groupname());
     }
 
-//    使用 AdvanceGroup Iterator 替代
+//    使用 子类 AdvanceGroupInterface 的迭代器 迭代 AdvanceUserInterface
 //    public Iterator<UserInterface> iterator() {
 //        return new Iterator<>() {
 //            private final Iterator<UsernameInterface> keyIterator = nameToUser.keySet().iterator();

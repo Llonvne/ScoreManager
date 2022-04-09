@@ -1,15 +1,12 @@
 package advancelayer_1.group.advanceGroup;
 
-import advancelayer_1.group.groupManager.centerGM.CenterGroupManager;
 import advancelayer_1.result.Result;
 import advancelayer_1.user.AdvanceUserInterface;
 import reallayer_0.group.userGroup.UserGroup;
 import reallayer_0.user.infos.UsernameInterface;
 import reallayer_0.user.types.UserInterface;
-import runtimelayer_3.runtimeScoreManager.groupScoreTransfer.GroupScoreTransfer;
 
 import java.util.Iterator;
-import java.util.Set;
 
 /**
  * 类名:     AdvanceGroup
